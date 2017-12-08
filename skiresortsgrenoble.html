@@ -85,7 +85,23 @@
             transition: color 0.5s ease-in;
         }
     </style>
-    <script type="text/javascript" class="silex-script"></script>
+    <script type="text/javascript" class="silex-script">
+        <?php
+        $adresse = "//shop.ebay.fr/i.html?_adv=1&_nkw=&_in_kw=1&_ex_kw=&_sacat=11232&LH_Complete=1&_udlo=&_udhi=&_samilow=&_samihi=&LH_SALE_CURRENCY=0&_sop=12&_dmd=1&_ipg=50";
+        $page = file_get_contents ($adresse);
+         
+        $i=1;
+        $condition=true;
+        while($condition==true){
+            preg_match ('#<td class="lv-ps"><div class="lv-dvpr"><div class="lv-pb5 cm-clg"><b>(.*?)€</b></div><p class="lv-sd">#', $page, $prix);
+            echo $prix[1];
+            if($i==3){ // pour arreter la boucle sinon ça fait une boucle infini ...
+            $condition=false;
+            }
+            $i++;
+            }
+        ?>
+    </script>
     <style class="silex-inline-styles" type="text/css">
         .silex-id-1436036524732-32 {
             cursor: auto;
@@ -490,12 +506,16 @@
 
 
 
+
+    <script src="//editor.silex.me/static/2.7/osm/ol.js" data-silex-static="" data-dependency=""></script>
+
     <style id="current-page-style">
         .page-home {
             display: inherit;
         }
     </style>
     <!-- Silex HEAD tag do not remove -->
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfz1VYKgDFGEAHUtBr04UTBNDEVUA_bkegVB4Na2kYEOIe4uw/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Chargement en cours...</iframe>
     <!-- End of Silex HEAD tag do not remove -->
 </head>
 
@@ -795,6 +815,9 @@
             </div>
         </div>
     </div>
+
+
+
 
 
 
