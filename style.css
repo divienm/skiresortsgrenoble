@@ -2,7 +2,7 @@
     width:1328px
     height:681px;
     background:url(map_eng.jpg) 0 0 no-repeat;
-    position:relative;
+    position:absolute;
 }
 
 .map {
@@ -10,7 +10,8 @@
 }
 
 .map__list {
-    float : right;
+    position:relative;
+    float:right;
 }
 
 .map__list a{
@@ -22,7 +23,9 @@
     color : #329CE3;
     
 }
-
+.map__image {
+    float:left;
+}
 .map__image path{
     opacity:1;
     fill:#FFF;
