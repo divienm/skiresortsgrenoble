@@ -514,14 +514,21 @@
                                 <script type="text/javascript">
                                     document.write("*** "  + "******" );
 
+                                    # MyUrl = page ou on trouve l info
                                     var MyURL= 'http://www.meteofrance.com/previsions-meteo-montagne/neige/les-2alpes/382531'
+                                    # MyNod = element qu on veut recuperer
                                     var MyNod= "//*[@id='snow-forecast']/div[1]/div[2]/div/dl[2]/dd[1]"
                                     
                                     var req = new XMLHttpRequest();
-                                    req.open("GET", MyURL, false); 
+                                    req.open("GET", MyURL, false);          # on ouvre la page web
                                     req.send(null);
-                                    var xmlDoc = req.responseXML;		
+                                    var xmlDoc = req.responseXML;	        # on recupere le resultat dans xmlDoc
+                                    
+                                    # dans cette pas xmlDoc, on recherche l element voulu, indique dans MyNod
+                                    
                                     var Enneigement = xmlDoc.evaluate(MyNod, xmlDoc, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null );
+                                    
+                                    # on recupere la valeur de cet element et on l affiche
                                     
                                     document.write("*** "  + Enneigement.singleNodeValue.innerHTML);
                                 </script>
