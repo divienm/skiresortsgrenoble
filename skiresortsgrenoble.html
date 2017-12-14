@@ -510,16 +510,6 @@
                                 <p> Description à mettre </p>
                                 <li> <a href="http://www.alpedugrandserre.info/en/" id="list-H"> Alpe du Grand Serre </a> </li>
                                 <script type="text/javascript">
-                                    var MyURL= 'http://www.meteofrance.com/previsions-meteo-montagne/neige/les-2alpes/382531'
-                                    var MyNod= "//*[@id='snow-forecast']/div[1]/div[2]/div/dl[2]/dd[1]"
-                                    
-                                    var req = new XMLHttpRequest();
-                                    req.open("GET", MyURL, false); 
-                                    req.send(null);
-                                    var xmlDoc = req.responseXML;		
-                                    var Enneigement = xmlDoc.evaluate(MyNod, xmlDoc, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null );
-                                    
-                                    document.write("*** "  + Enneigement.singleNodeValue.innerHTML);
                                     document.write("*** "  + "******" );
                                 </script>
 
