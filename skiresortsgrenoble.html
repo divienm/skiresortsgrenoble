@@ -304,6 +304,8 @@
 
 
 
+
+
     <style id="current-page-style">
         .page-site {
             display: inherit;
@@ -447,7 +449,7 @@
                     <div class="map" id="map">
                         <div class="map__image">
 
-                            <svg xmlns:dc="//purl.org/dc/elements/1.1/" xmlns:cc="//creativecommons.org/ns#" xmlns:rdf="//www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="//www.w3.org/2000/svg" xmlns="//www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+                            <svg xmlns:dc="//purl.org/dc/elements/1.1/" xmlns:cc="//creativecommons.org/ns#" xmlns:rdf="//www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="//www.w3.org/2000/svg" xmlns="//www.w3.org/2000/svg" xmlns:xlink="//www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
                                 xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" id="svg4528" width="1328" height="681" viewBox="0 0 1328 681" sodipodi:docname="Map_eng.svg" inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
                
                 <a id="station-A" xlink:title="Lans-en-Vercors" xlink:href="http://www.lansenvercors.com/">
@@ -504,8 +506,8 @@
                                 <p> Description à mettre </p>
                                 <li> <a href="http://www.alpedugrandserre.info/en/" id="list-H"> Alpe du Grand Serre </a> </li>
                                 <script type="text/javascript">
-                                    var Enneigement=document.evaluate('http://www.meteofrance.com/previsions-meteo-montagne/neige/les-2alpes/382531/*[@id='snow-forecast']/div[1]/div[2]/div/dl[2]/dd[1]', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.innerHTML;
-                                    document.write(Enneigement);
+                                    var Enneigement=document.evaluate('http://www.meteofrance.com/previsions-meteo-montagne/neige/les-2alpes/382531#[@id='snow-forecast']/div[1]/div[2]/div/dl[2]/dd[1]', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.innerHTML;
+                                    document.write("*** "  + Enneigement);
                                 </script>
 
                             </ul>
@@ -541,6 +543,8 @@
             </div>
         </div>
     </div>
+
+
 
 
 
