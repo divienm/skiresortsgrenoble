@@ -83,7 +83,8 @@
         
         .map__list {
             position: absolute;
-            float: right;
+            top: -100px;
+            left: 1020px;
         }
         
         .map__list a {
@@ -124,26 +125,6 @@
             background-color: rgba(160, 202, 255, 1);
         }
         
-        .silex-id-1513265882381-4 {
-            width: 1370px;
-            top: 905px;
-            left: 28px;
-            background-color: transparent;
-            min-height: 767px;
-        }
-        
-        .silex-id-1513266015671-6 {
-            width: 1384px;
-            top: 75px;
-            left: -22px;
-            background-color: transparent;
-            min-height: 813px;
-            background-image: url('../assets/Map_eng2.jpg');
-            background-repeat: no-repeat;
-            border-width: 10px 10px 10px 10px;
-            border-style: double;
-        }
-        
         .silex-id-1513265709492-3 {
             width: 809px;
             top: 6px;
@@ -180,15 +161,6 @@
             border-style: double;
         }
         
-        .silex-id-1513265956214-5 {
-            width: 284px;
-            min-height: 74px;
-            top: 863px;
-            left: 683px;
-            border-width: 10px 10px 10px 10px;
-            border-style: double;
-        }
-        
         .silex-id-1513296886803-2 {
             width: 303px;
             min-height: 426px;
@@ -205,5 +177,32 @@
             left: 1340px;
             border-width: 10px 10px 10px 10px;
             border-style: double;
+        }
+        
+        .silex-id-1513265882381-4 {
+            width: 1378px;
+            top: 979px;
+            left: 65px;
+            background-color: transparent;
+            min-height: 999px;
+        }
+        
+        .silex-id-1513265956214-5 {
+            width: 284px;
+            min-height: 74px;
+            top: 11px;
+            left: 610px;
+            border-width: 10px 10px 10px 10px;
+            border-style: double;
+        }
+        
+        .silex-id-1513266015671-6 {
+            width: 1384px;
+            top: 287px;
+            left: 19px;
+            background-color: transparent;
+            min-height: 716px;
+            background-image: url('../assets/Map_eng2.jpg');
+            background-repeat: no-repeat;
         }
     
