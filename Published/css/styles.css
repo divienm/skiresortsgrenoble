@@ -140,42 +140,59 @@
             min-height: 703px;
             background-image: url('../assets/Map_eng.jpg');
             background-repeat: no-repeat;
+            border-width: 10px 10px 10px 10px;
+            border-style: ridge;
         }
         
         .silex-id-1513265956214-5 {
             width: 284px;
             min-height: 74px;
-            top: 14px;
-            left: 630px;
+            top: -9px;
+            left: 689px;
+            border-width: 10px 10px 10px 10px;
+            border-style: double;
         }
         
         .silex-id-1513265709492-3 {
             width: 874px;
             top: 6px;
-            left: 337px;
+            left: 393px;
             background-color: transparent;
             min-height: 850px;
         }
         
         .silex-id-1513265619663-1 {
-            width: 314px;
-            min-height: 99px;
-            top: 24px;
-            left: 266px;
+            width: 404px;
+            min-height: 141px;
+            top: -2px;
+            left: 217px;
+            border-style: double;
+            border-width: 10px 10px 10px 10px;
         }
         
         .silex-id-1513265703116-2 {
-            width: 815px;
-            top: 167px;
-            left: 28px;
+            width: 761px;
+            top: 176px;
+            left: 49px;
             background-color: rgb(255, 255, 255);
             min-height: 600px;
+            border-width: 10px 10px 10px 10px;
+            border-style: ridge;
         }
         
         .silex-id-1513273766526-10 {
             width: 325px;
             min-height: 267px;
-            top: 27px;
-            left: 8px;
+            top: 14px;
+            left: 20px;
+            border-width: 10px 10px 10px 10px;
+            border-style: double;
+        }
+        
+        .silex-id-1513296886803-2 {
+            width: 320px;
+            min-height: 262px;
+            top: 373px;
+            left: 36px;
         }
     
