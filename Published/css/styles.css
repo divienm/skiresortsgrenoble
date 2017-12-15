@@ -133,13 +133,15 @@
         }
         
         .silex-id-1513266015671-6 {
-            width: 1567px;
+            width: 1539px;
             top: 84px;
-            left: 9px;
+            left: 2px;
             background-color: transparent;
             min-height: 704px;
             background-image: url('../assets/Map_eng.jpg');
             background-repeat: no-repeat;
+            border-width: 10px 10px 10px 10px;
+            border-style: ridge;
         }
         
         .silex-id-1513265709492-3 {
@@ -178,20 +180,20 @@
             border-style: double;
         }
         
-        .silex-id-1513296886803-2 {
-            width: 320px;
-            min-height: 262px;
-            top: 373px;
-            left: 36px;
-            border-width: 10px 10px 10px 10px;
-            border-style: double;
-        }
-        
         .silex-id-1513265956214-5 {
             width: 284px;
             min-height: 74px;
             top: 863px;
             left: 683px;
+            border-width: 10px 10px 10px 10px;
+            border-style: double;
+        }
+        
+        .silex-id-1513296886803-2 {
+            width: 334px;
+            min-height: 426px;
+            top: 365px;
+            left: 21px;
             border-width: 10px 10px 10px 10px;
             border-style: double;
         }
